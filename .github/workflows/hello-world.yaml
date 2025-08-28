@@ -33,16 +33,4 @@ jobs:
       - name: Runs the "Hello world" shell script
         run: ./index.sh
 
-        # This workflow contains a single job called "hello-world2"
-  hello-world2:
-    # The type of runner that the job will run on
-    runs-on: ubuntu-latest
-
-    # Steps represent a sequence of tasks that will be executed as part of the job
-    steps:
-      # Checks-out your repository under $GITHUB_WORKSPACE, so your job can access it
-      - uses: actions/checkout@v3
-
-      # Runs our our "Hello world" shell script.
-      - name: Runs the "Hello 2" shell script
-        run: ./test.sh
+  
